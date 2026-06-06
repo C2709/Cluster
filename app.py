@@ -14,7 +14,6 @@ st.write("Mira cómo los datos inician sin color y se adaptan al centroide más 
 st.sidebar.header("Configuración")
 n_samples = st.sidebar.slider("Número de puntos de datos", 100, 500, 300, step=50)
 k_clusters = st.sidebar.slider("Número de clusters (K)", 2, 6, 3)
-seed = st.sidebar.number_input("Semilla aleatoria", value=42)
 
 
 # --- GENERACIÓN DE DATOS ---
